@@ -1,13 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div>
-      <h1>Welcome to STUBLCAN Web</h1>
-    </div>
-  );
-}
+import Header from './containers/Header';
+import HomePage from './containers/HomePage';
 
-export default App;
+import Footer from './containers/Footer';
+
+
+
+export default class App extends Component {
+
+  render() {
+    return (
+      <div>
+        <Header />
+        <HomePage />
+
+        <Footer />
+      </div>
+    );
+  }
+}
