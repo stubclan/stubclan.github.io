@@ -3,14 +3,12 @@ import React, { Component } from "react";
 import { Link, BrowserRouter, Route } from "react-router-dom";
 import { Row, Nav, NavItem } from "reactstrap";
 
-import Resume from "./Resume";
-import HomePage from "./HomePage";
+
 
 class Header extends Component {
   render() {
     return (
       <div>
-        <div>
           <nav
             className="navbar navbar-expand-lg navbar-light fixed-top text-white"
             id="mainNav"
@@ -62,14 +60,15 @@ class Header extends Component {
                   sujan aryal
                 </h1>
                 <h2 className="aboutDesc mx-auto mt-2 mb-5">
-                  web designer/ developer and an enthusiast
+                you, me, everyone: we are made of star stuff 
+                <br /> ~ <br /> 
+                
                 </h2>
                 {/* <a href="#about" className="btn btn-primary js-scroll-trigger">Get Started</a> */}
               </div>
             </div>
           </header>
         </div>
-      </div>
     );
   }
 }

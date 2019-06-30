@@ -4,7 +4,7 @@ a {
 
 @font-face {
   font-family: "Anton";
-  src: url("./font/Anton-Regular.ttf");
+  src: url("./../font/Anton-Regular.ttf");
 }
 
 .masthead {
@@ -21,14 +21,14 @@ a {
       color-stop(75%, rgba(22, 22, 22, 0.7)),
       to(#161616)
     ),
-    url("./img/mainbg.jpg");
+    url("./../img/mainbg.jpg");
   background: linear-gradient(
       to bottom,
       rgba(22, 22, 22, 0.1) 0,
       rgba(22, 22, 22, 0.3) 75%,
       #161616 100%
     ),
-    url("./img/mainbg.jpg");
+    url("./../img/mainbg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -107,36 +107,33 @@ code {
 
 /* GoodRead Widget CSS */
 
-#customize-list{
-    float:left;
-    margin-left:20px;
-    list-style:none;
+#customize-list {
+  float: left;
+  margin-left: 20px;
+  list-style: none;
 }
-#gr_updates_widget{
-float:left;
-border-radius: 5px;
-background-color:#fff;
-border:solid #683205 10px;
--webkit-box-shadow: 0px 0px 4px 1px #595959,
-inset 0px 0px 0px 1px #7D730B;
--moz-box-shadow: 0px 0px 4px 1px #595959,
-inset 0px 0px 0px 1px #7D730B;
-box-shadow: 0px 0px 4px 1px #595959,
-inset 0px 0px 0px 1px #7D730B;
-padding:15px 0 0px 15px;
-width:1200px;
-height:365px;
+#gr_updates_widget {
+  float: left;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid #683205 10px;
+  -webkit-box-shadow: 0px 0px 4px 1px #595959, inset 0px 0px 0px 1px #7d730b;
+  -moz-box-shadow: 0px 0px 4px 1px #595959, inset 0px 0px 0px 1px #7d730b;
+  box-shadow: 0px 0px 4px 1px #595959, inset 0px 0px 0px 1px #7d730b;
+  padding: 15px 0 0px 15px;
+  width: 1200px;
+  height: 365px;
 }
-#gr_footer{
-margin-bottom:0px;
-height:30px;
+#gr_footer {
+  margin-bottom: 0px;
+  height: 30px;
 }
-#gr_updates_widget p{
-padding:10px;
-margin:0;
-font-size:14px;
+#gr_updates_widget p {
+  padding: 10px;
+  margin: 0;
+  font-size: 14px;
 }
-#gr_footer img{
-width:100px;
-float:left;
+#gr_footer img {
+  width: 100px;
+  float: left;
 }

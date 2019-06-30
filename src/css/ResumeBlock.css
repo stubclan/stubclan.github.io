@@ -1,0 +1,128 @@
+/* CSS FOR RESUME BLOCKS */
+
+.box {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#161616),
+    color-stop(75%, rgba(22, 22, 22, 0.9)),
+    to(rgba(22, 22, 22, 0.8))
+  );
+  background: linear-gradient(
+    to bottom,
+    #161616 0,
+    rgba(22, 22, 22, 0.9) 75%,
+    rgba(22, 22, 22, 0.8) 100%
+  );
+
+  margin: 0 !important;
+}
+
+.box img {
+  filter: grayscale();
+}
+
+.mastheadZero {
+  padding: 0 !important;
+}
+
+.mastheadEdu {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 15rem 0;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 22, 22, 0.3)),
+      color-stop(75%, rgba(22, 22, 22, 0.7)),
+      to(#161616)
+    ),
+    url("./../img/education.jpg");
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.1) 0,
+      rgba(22, 22, 22, 0.3) 75%,
+      #161616 100%
+    ),
+    url("./../img/education.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  filter: grayscale();
+  transition: 4s;
+}
+
+.mastheadEdu:hover {
+  filter: none;
+}
+
+.educationInfo ul {
+  list-style-type: none;
+}
+
+.educationList li p {
+  font-size: 1.2em;
+  color:white;
+}
+
+/* Masthead for Contact */
+
+.mastheadCon {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 5rem 0 15rem;
+  background: -webkit-gradient(
+    scaleX(-1),
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 22, 22, 0.3)),
+      color-stop(75%, rgba(22, 22, 22, 0.7)),
+      to(#161616)
+    ),
+    url("./../img/contact.jpg");
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.1) 0,
+      rgba(22, 22, 22, 0.3) 75%,
+      #161616 100%
+    ),
+    url("./../img/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  filter: grayscale();
+  transition: 4s;
+
+  transform: scaleX(-1);
+  
+}
+
+.mastheadCon:hover {
+filter:none;
+}
+
+.mastheadCon .container {
+  transform: scaleX(-1);
+}
+
+.contactMethods i {
+  font-size: 2em;
+  transition: 2s;
+}
+
+.fa-linkedin:hover {
+ color: #0073B0;
+}
+
+.fa-github:hover {
+  color: #24292E;
+ }
