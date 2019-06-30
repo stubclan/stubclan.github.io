@@ -53,7 +53,6 @@ class Header extends Component {
               </div>
             </div>
           </nav>
-=======
                
 
           <header className="masthead">
