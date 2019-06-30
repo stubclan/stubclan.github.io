@@ -1,22 +1,20 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
-import Header from './containers/Header';
-import HomePage from './containers/HomePage';
+import { BrowserRouter, Link, Route } from "react-router-dom";
 
-import Footer from './containers/Footer';
-
-
+import HomePage from "./containers/HomePage";
+import Resume from "./containers/Resume";
 
 export default class App extends Component {
-
   render() {
     return (
       <div>
-        <Header />
-        <HomePage />
-
-        <Footer />
+        <BrowserRouter>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/resume" component={Resume} />
+        </BrowserRouter>
+        
       </div>
     );
   }
