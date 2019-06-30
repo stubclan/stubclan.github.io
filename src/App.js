@@ -14,7 +14,6 @@ export default class App extends Component {
           <Route exact path="/" component={HomePage} />
           <Route exact path="/resume" component={Resume} />
         </BrowserRouter>
-        
       </div>
     );
   }
