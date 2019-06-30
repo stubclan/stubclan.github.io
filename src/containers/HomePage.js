@@ -12,9 +12,9 @@ class HomePage extends Component {
 
         <section id="about" className="about-section text-center">
           <div className="container">
-            <div class="row">
+            {/* <div class="row">
               <GoodReadWidget />
-            </div>
+            </div> */}
             <div className="row">
               <div className="col-lg-8 mx-auto">
                 <h2 className="text-white mb-4">About me</h2>
