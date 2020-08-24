@@ -47,6 +47,11 @@ class Header extends Component {
                       resume
                     </Link>
                   </NavItem>
+                  <NavItem>
+                    <Link to="/blog" className="nav nav-link">
+                      blog
+                    </Link>
+                  </NavItem>
                 </Nav>
               </div>
             </div>

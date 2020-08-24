@@ -1,0 +1,30 @@
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(+100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.notion {
+  position: relative;
+  border-bottom: 1px solid white;
+  filter: grayscale();
+  transition: 2s;
+  width: 100%!important;
+  animation: 1s ease-out 0s 1 slideInFromRight;
+  padding: 2em;
+}
+
+.notion-page {
+  margin:0!important;
+}
+
+.notion:hover {
+  filter: none;
+}
+
+.notion-page-offset {
+  margin-top: 0!important;
+}

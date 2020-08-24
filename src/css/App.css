@@ -137,3 +137,17 @@ code {
   width: 100px;
   float: left;
 }
+
+.sidebar {
+  padding: 2em;
+  position: fixed;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  padding: 1em!important;
+  border-bottom: 1px solid white;
+}
