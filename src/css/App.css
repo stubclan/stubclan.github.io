@@ -147,6 +147,14 @@ code {
   position: fixed;
 }
 
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    padding: 1em;
+    position: relative;
+  }
+}
+
+
 .sidebar ul {
   list-style-type: none;
 }

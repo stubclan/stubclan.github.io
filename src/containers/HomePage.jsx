@@ -19,7 +19,7 @@ class HomePage extends Component {
               <div className="col-lg-8 mx-auto">
                 <h2 className="text-white mb-4">About me</h2>
                 <p className="text-white-50">
-                  <code class="codeAboutMe">
+                  <code className="codeAboutMe">
                     <p>
                       function <a href="mailto:stubclan.com@gmail.com">flare</a>{" "}
                       youStubmbledHere {"{"}
