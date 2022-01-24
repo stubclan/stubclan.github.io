@@ -9,7 +9,7 @@ class Footer extends Component {
                 <section className="contact-section">
 
                     <div className="social d-flex justify-content-center footer-contact-section">
-                        <a href="https://linkedin.com/stubclan" className="mx-2">
+                        <a href="https://linkedin.com/in/stubclan" className="mx-2">
                         <i className="fab fa-linkedin"></i>
                         </a>
                         
